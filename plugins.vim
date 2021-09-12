@@ -1,5 +1,10 @@
 set rtp+=~/tabnine-vim
+set nocompatible
 call plug#begin('~/.local/share/nvim/plugged')
+
+"Syntax"
+Plug 'sheerun/vim-polyglot'
+
 
 "Themes"
 Plug 'joshdick/onedark.vim'
