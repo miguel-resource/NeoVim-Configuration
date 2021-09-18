@@ -12,9 +12,11 @@ Plug 'sainnhe/everforest'
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 Plug 'sainnhe/gruvbox-material'
 Plug 'ghifarit53/tokyonight-vim'
+Plug 'mangeshrex/uwu.vim'
 
 "Autocompleatodo"
 Plug 'hail2u/vim-css3-syntax'
+Plug 'davidhalter/jedi-vim'
 
 "Other"
 Plug 'MarcWeber/vim-addon-mw-utils'

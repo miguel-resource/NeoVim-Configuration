@@ -154,6 +154,7 @@ nnoremap <s-tab> :bprevious<CR>
 nnoremap <S-tab> :bprevious<CR>
 
 " Close the current buffer
+nnoremap <leader>b :bd<CR>
 "create a new tab
 nnoremap <leader>q :bdelete<CR>
 nnoremap <leader>t :tabe<CR>
@@ -177,6 +178,10 @@ inoremap [  []<Esc>i
 inoremap <  <><Esc>i
 inoremap '  ''<Esc>i
 inoremap "  ""<Esc>i
+
+"Autocompletado css"
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 
 let g:airline_powerline_fonts = 1
 set guifont=DroidSansMono\ Nerd\ Font\ 11
