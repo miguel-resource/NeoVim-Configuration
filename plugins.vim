@@ -4,7 +4,16 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 "Syntax"
 Plug 'sheerun/vim-polyglot'
+Plug 'alvan/vim-closetag'
 
+"Type"
+Plug 'tpope/vim-surround'
+
+Plugin 'SirVer/ultisnips'
+
+
+"Git"
+Plug 'tpope/vim-fugitive'
 
 "Themes"
 Plug 'joshdick/onedark.vim'
@@ -17,6 +26,7 @@ Plug 'mangeshrex/uwu.vim'
 "Autocompleatodo"
 Plug 'hail2u/vim-css3-syntax'
 Plug 'davidhalter/jedi-vim'
+Plug 'leafgarland/typescript-vim'
 
 "Other"
 Plug 'MarcWeber/vim-addon-mw-utils'
@@ -56,8 +66,9 @@ set omnifunc=ale#completion#OmniFunc
 let g:ale_completion_autoimport = 1
 let b:ale_fixers = {'javascript': ['prettier', 'eslint']}
 
+
 "Themes configurations"
-colorscheme tokyonight
+colorscheme onedark
 let g:tokyonight_style = 'storm' " available: night, storm
 let g:tokyonight_enable_italic = 1
 

@@ -57,7 +57,7 @@ imap <C-V> <Esc>pa
 imap <F3> <Esc>:set invnumber<CR>a
 imap <F4> <Esc>:q<CR>
 vmap <C-Up> 8k
-vmap <C-Down> 8j
+
 hi linenr ctermfg=8
 hi cursorline cterm=NONE
 hi cursorlinenr ctermfg=15
@@ -153,6 +153,7 @@ nnoremap <tab> :bnext<CR>
 nnoremap <s-tab> :bprevious<CR>
 nnoremap <S-tab> :bprevious<CR>
 
+nnoremap <leader><leader>s(<Plug>(easymotion-s))
 " Close the current buffer
 nnoremap <leader>b :bd<CR>
 "create a new tab
